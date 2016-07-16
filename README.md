@@ -6,7 +6,7 @@ Read the Awesomium license at http://wiki.awesomium.com/licensing/licensing-over
 
 ## Description ##
 This is a plugin framework to integrate the Awesomium SDK (http://www.awesomium.com/) into the Shiva 3D game engine. Using this plugin, it's possible to display web content on Shiva pixelmaps. These pixelmaps can be used on scene objects and HUD Components.
-In its current state, this project contains basic mouse and keyboard input for HUD components.
+In its current state, this project contains basic mouse and keyboard input for HUD components. Check out this basic setup video: https://www.youtube.com/watch?v=VjWanFeeq1k
 
 ## Versions ##
 * Awesomium 1.7.5.1
