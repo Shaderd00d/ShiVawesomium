@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+	<plugin name="ShiVa_Awesomium" version="1.0.0" s3dx_sdk_version="0x1090200">
+
+		<info>
+			<description>A ShiVa browser plugin</description>
+			<author>
+				<name>Shaderman</name>
+				<mail>dev@shaderman.com</mail>
+				<site>http://shaderman.com</site>
+			</author>
+		</info>
+
+		<certificate></certificate>
+
+		<files>
+			<platform type="Windows">
+				<arch type="x86_32">ShiVa_Awesomium_Windows.dll</arch>
+			</platform>
+
+			<platform type="WinRT">
+				<arch type="x86_32">ShiVa_Awesomium_WinRT_x86_32.dll</arch>
+				<arch type="x86_64">ShiVa_Awesomium_WinRT_x86_64.dll</arch>
+				<arch type="arm_32">ShiVa_Awesomium_WinRT_arm_32.dll</arch>
+			</platform>
+
+			<platform type="WinRT" toolset="wp8">
+				<arch type="x86_32">ShiVa_Awesomium_WinRT_wp8_x86_32.dll</arch>
+				<arch type="arm_32">ShiVa_Awesomium_WinRT_wp8_arm_32.dll</arch>
+			</platform>
+
+			<platform type="Mac">
+				<arch type="ppc_32">ShiVa_Awesomium_Mac.dylib</arch>
+				<arch type="ppc_64">ShiVa_Awesomium_Mac.dylib</arch>
+				<arch type="x86_32">ShiVa_Awesomium_Mac.dylib</arch>
+				<arch type="x86_64">ShiVa_Awesomium_Mac.dylib</arch>
+			</platform>
+
+			<platform type="Linux">
+				<arch type="x86_32">ShiVa_Awesomium_Linux.so</arch>
+			</platform>
+
+			<platform type="iOS">
+				<arch type="arm_v6">ShiVa_Awesomium_iOS.a</arch>
+				<arch type="arm_v7">ShiVa_Awesomium_iOS.a</arch>
+			</platform>
+
+			<platform type="Android">
+				<arch type="arm_v5te">ShiVa_Awesomium_Android.a</arch>
+			</platform>
+
+			<platform type="Palm">
+				<arch type="arm_v6">ShiVa_Awesomium_Palm.a</arch>
+			</platform>
+
+			<platform type="BlackBerry">
+				<arch type="arm_v7">ShiVa_Awesomium_BlackBerry.a</arch>
+			</platform>
+
+			<platform type="Flash">
+				<arch type="noarch">ShiVa_Awesomium_Flash.swc</arch>
+			</platform>
+
+			<platform type="Wii">
+				<arch type="ppc_32">ShiVa_Awesomium_Wii.a</arch>
+			</platform>
+
+			<platform type="PS3">
+				<arch type="ppc_32">ShiVa_Awesomium_PS3.a</arch>
+			</platform>
+
+			<platform type="NaCl">
+				<arch type="x86_32">ShiVa_Awesomium_NaCl_x86_32.a</arch>
+				<arch type="x86_64">ShiVa_Awesomium_NaCl_x86_64.a</arch>
+			</platform>
+
+			<platform type="XB360">
+				<arch type="ppc_32">ShiVa_Awesomium_XB360.lib</arch>
+			</platform>
+
+		</files>
+	</plugin>
+</manifest>
